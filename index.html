@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Startup Tycoon</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <header>
+            <h1>Tech Startup Tycoon</h1>
+            <div id="resources">
+                <div class="resource"><span class="icon">💰</span> $<span id="money"></span></div>
+                <div class="resource"><span class="icon">👥</span> <span id="employees"></span></div>
+                <div class="resource"><span class="icon">🌟</span> <span id="reputation"></span></div>
+            </div>
+        </header>
+        
+        <main>
+            <section id="actions">
+                <h2>Actions</h2>
+                <button id="develop-product">Develop Product</button>
+                <button id="hire-employee">Hire Employee</button>
+                <button id="seek-funding">Seek Funding</button>
+                <button id="launch-marketing">Launch Marketing Campaign</button>
+                <button id="research-tech">Research Technology</button>
+            </section>
+
+            <section id="products">
+                <h2>Products</h2>
+                <div id="product-list"></div>
+            </section>
+
+            <section id="employees">
+                <h2>Employees</h2>
+                <div id="employee-list"></div>
+            </section>
+
+            <section id="office-upgrades">
+                <h2>Office Upgrades</h2>
+                <div id="upgrade-list"></div>
+            </section>
+
+            <section id="tech-tree">
+                <h2>Technology Tree</h2>
+                <div id="tech-list"></div>
+            </section>
+
+            <section id="competitors">
+                <h2>Competitors</h2>
+                <div id="competitor-list"></div>
+            </section>
+
+            <section id="achievements">
+                <h2>Achievements</h2>
+                <div id="achievement-list"></div>
+            </section>
+        </main>
+
+        <div id="notifications"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
